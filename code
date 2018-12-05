@@ -1,0 +1,20 @@
+import random
+def hangman():
+    user = raw_input("What is your name?")
+    print "hello", user
+    print "You are now playing hangman. There are no hints or categories, just start guessing. You have 6 chances, Good luck!"
+    words = ('soccer','pancakes', 'youtube', 'class', 'earphones')
+    randomchoice = random.choice(words)
+    print randomchoice
+    turns = 6
+    while turns < 6:
+        if 's' in soccer:
+            print 'yes'
+        else:
+            print 
+        if 'o' in soccer:
+            print yes
+        guess = raw_input()
+        if guess == word:
+            print "Congrats! You won!"
+            

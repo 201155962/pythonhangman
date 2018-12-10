@@ -6,15 +6,17 @@ def hangman():
     words = ('soccer','pancakes', 'youtube', 'class', 'earphones')
     randomchoice = random.choice(words)
     print randomchoice
-    turns = 6
-    while turns < 6:
-        if 's' in soccer:
-            print 'yes'
-        else:
-            print 
-        if 'o' in soccer:
-            print yes
-        guess = raw_input()
-        if guess == word:
-            print "Congrats! You won!"
+    glist = list('_'*len(randomchoice))
+    print glist
+    turns = 0
+    guess = raw_input()
+    if guess in randomchoice:
+        print(guess,'is in the word!')
+
+    else:
+        turns = turns+1
+    if guess(0) = randomchoice (0)
+    
+   
+   
             
